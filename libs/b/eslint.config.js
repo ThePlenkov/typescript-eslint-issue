@@ -4,11 +4,11 @@ import * as jsonParser from 'jsonc-eslint-parser';
 
 export default tseslint.config(
   ...baseConfig,
-  // {
-  //   languageOptions: {
-  //     parser: jsonParser,
-  //   },
-  //   files: ['**/*.json'],
-  //   rules: { '@nx/dependency-checks': 'error' },
-  // }
+  {
+    languageOptions: {
+      parser: jsonParser,
+    },
+    files: ['**/*.json'],
+    rules: { '@nx/dependency-checks': 'error' },
+  }
 );

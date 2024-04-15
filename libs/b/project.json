@@ -1,5 +1,5 @@
 {
-  "name": "a",
+  "name": "b",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/a/src",
   "projectType": "library",
